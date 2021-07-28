@@ -52,8 +52,6 @@ export default {
   mounted() {
     handler.$on('getUploadJson', (jsonData) => {
       this.jsonData = jsonData
-      console.log("App Module....")
-      console.log(this.jsonData)
     });
   }
 };
