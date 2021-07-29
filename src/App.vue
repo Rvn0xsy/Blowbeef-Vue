@@ -12,7 +12,7 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        href="https://github.com/Rvn0xsy/Blowbeef"
         target="_blank"
         text
       >
@@ -23,7 +23,7 @@
 
     <v-main>
       <Upload></Upload>
-      <Analyze></Analyze>
+<!--      <Analyze></Analyze>-->
       <ShowData></ShowData>
     </v-main>
   </v-app>
@@ -33,7 +33,7 @@
 // import HelloWorld from './components/HelloWorld';
 import handler from "./components/handler";
 import ShowData from "./components/ShowData";
-import Analyze from "./components/Analyze";
+// import Analyze from "./components/Analyze";
 import Upload from "./components/Upload";
 
 export default {
@@ -41,7 +41,7 @@ export default {
 
   components: {
     Upload,
-    Analyze,
+    // Analyze,
     ShowData,
     // HelloWorld,
   },
